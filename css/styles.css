@@ -1,0 +1,132 @@
+.encabezado{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.contenedor-titulo{
+    height: 59px;
+    padding: 7px 0;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado h1{
+    font-family: 'Raleway', sans-serif;
+    color: #ffffff;  
+    font-size: 50px;
+    text-align: center;  
+}
+
+.bg-footer{
+    height: 727px;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desc-section{
+    height: 348px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contenedor-texto{
+    width: 495px;
+}
+
+.desc-texto{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.img-desc-iguana{
+    width: 400px;
+    height: 238px;
+}
+
+.caracteristicas-section{
+    height: 348px;
+    background-color: #1E1A13;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.caracteristicas-section h2{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.caracteristicas-section .contenedor-iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.card i{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.card p{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.imagenes-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+.contenedor-imagenes{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.img-iguanas{
+    width: 316px;
+    height: 202px;
+}
+
+footer{
+    height: 102px;
+    background-color: #1E1A13;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #ffffff;
+}
